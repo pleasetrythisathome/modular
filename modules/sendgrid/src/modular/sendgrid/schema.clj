@@ -6,5 +6,5 @@
 
 (def SendgridEmailer
   {:sendgrid
-   {:api-user s/Str
-    :api-password s/Str}})
+   {:user s/Str
+    :password s/Str}})

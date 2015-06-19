@@ -34,4 +34,4 @@
   (->> opts
        (merge {})
        (s/validate sc/SendgridEmailer)
-       ->SendgridEmailer))
+       map->SendgridEmailer))
